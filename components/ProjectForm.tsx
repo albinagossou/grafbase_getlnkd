@@ -112,7 +112,7 @@ const ProjectForm = ({ type, session, project }: ProjectFormProps) => {
       <FormField
         title="Description"
         state={form.description}
-        placeholder="Showcase and discoer remarkable developer projects."
+        placeholder="Showcase and discover remarkable developer projects."
         setState={(value) => handleStateChange('description', value)}
       />
       <FormField
