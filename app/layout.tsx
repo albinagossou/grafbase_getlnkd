@@ -1,10 +1,10 @@
-import Footer from '../components/Footer';
-import Navbar from '../components/Navbar';
 import './globals.css';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'GetLinked',
-  description: 'Dévoile ton potentiel',
+  title: 'Flexibble',
+  description: 'Showcase and discover remarkable developer projects',
 }
 
 export default function RootLayout({
@@ -15,11 +15,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar /> 
+        <Navbar />
         <main>
           {children}
         </main>
-        <Footer />  
+        <Footer />
       </body>
     </html>
   )
