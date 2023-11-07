@@ -106,7 +106,7 @@ const ProjectForm = ({ type, session, project }: ProjectFormProps) => {
       <FormField
         title="Title"
         state={form.title}
-        placeholder="GetLinked"
+        placeholder="Flexibble"
         setState={(value) => handleStateChange('title', value)}
       />
       <FormField
@@ -126,7 +126,7 @@ const ProjectForm = ({ type, session, project }: ProjectFormProps) => {
         type="url"
         title="Github URL"
         state={form.githubUrl}
-        placeholder="https://github.com/albinagossou"
+        placeholder="https://github.com/username"
         setState={(value) => handleStateChange('githubUrl', value)}
       />
 
