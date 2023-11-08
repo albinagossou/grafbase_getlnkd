@@ -106,7 +106,7 @@ const ProjectForm = ({ type, session, project }: ProjectFormProps) => {
       <FormField
         title="Title"
         state={form.title}
-        placeholder="Flexibble"
+        placeholder="Getlinked"
         setState={(value) => handleStateChange('title', value)}
       />
       <FormField
