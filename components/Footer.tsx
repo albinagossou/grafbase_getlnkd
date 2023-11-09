@@ -33,7 +33,7 @@ const Footer = () => {
                     />
 
                     <p className="text-start text-sm font-normal mt-5 max-w-xs">
-                        GetLinked is the world's leading community for creatives to share, grow, and get hired.
+                        GetLinked is the world's community for creatives to share, grow, and get hired.
                     </p>
                 </div>
 
